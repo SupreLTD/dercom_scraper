@@ -65,7 +65,7 @@ def parse():
 
             characteristics = ', '.join(table_data)
 
-            with open('data/test.csv', 'a', newline='', encoding='utf-8') as f:
+            with open('data/data.csv', 'a', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerow([title, url, image, characteristics])
 
