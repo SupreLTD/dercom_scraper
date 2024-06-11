@@ -14,7 +14,7 @@ def handle_request(route, request):
 
 def parse():
     with sync_playwright() as p:
-        browser = p.firefox.launch(headless=False, timeout=60000)
+        browser = p.firefox.launch(headless=True, timeout=60000)
         context = browser.new_context(
             ignore_https_errors=True,
         )
