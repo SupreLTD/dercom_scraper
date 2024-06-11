@@ -70,4 +70,5 @@ def parse():
                 writer.writerow([title, url, image, characteristics])
 
 
-parse()
+if __name__ == '__main__':
+    parse()
