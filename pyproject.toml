@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dercom-scraper"
+version = "0.1.0"
+description = ""
+authors = ["supreltd <balanaaarrrr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.66.4"
+playwright = "^1.44.0"
+playwright-stealth = "^1.0.6"
+loguru = "^0.7.2"
+setuptools = "^70.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
